@@ -39,16 +39,16 @@
 }
 
 .buscador input {
-  padding: 10px 15px;
+  padding: 20px 100px;
   width: 200px;                   /* Ancho fijo para evitar desbordamientos */
   border: 1px solid #ccc;
-  border-radius: 20px 0 0 20px;
+  border-radius: 200px 0 0 20px;
   outline: none;
   font-size: 14px;
 }
 
 .buscador button {
-  padding: 10px 15px;
+  padding: 19.5px 20px;
   border: 1px solid #ccc;
   border-left: none;
   background-color: #3a78b3;
