@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda</title>
+    <title>-MangaStore-</title>
     <link href="styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -16,34 +16,78 @@
             <button type="submit">🔍</button>
         </form>
 
-        <h1>HomeroStore</h1>
+        <h1>MangaStore</h1>
 
         <nav class="menu">
-            <a href="https://one-piece-fans2.com/manga/es/todos/1190">VER ONE PIECE</a>
-            <a href="#">INICIO</a>
+            <a href="https://one-piece-fans2.com/manga/es/todos/1191">VER ONE PIECE</a>
+            <a href="index.html">INICIO</a>
 
             <!-- Desplegable de Categorías (Botón fijo) -->
             <div class="dropdown-categoria">
                 <button class="dropdown-btn">CATEGORÍAS ▾</button>
                 <div class="dropdown-content">
-                    <a href="#">Shoujo</a>
-                    <a href="#">Shonen</a>
-                    <a href="#">Seinen</a>
-                    <a href="#">Josei</a>
-                    <a href="#">Slice of life</a>
+                    <a href="shoujo.html">Shoujo</a>
+                    <a href="shonen.html">Shonen</a>
+                    <a href="seinen.html">Seinen</a>
+                    <a href="sliceoflife.html">Slice of life</a>
                 </div>
             </div>
 
             <a href="#">PRODUCTOS</a>
             <a href="#">CARRITO</a>
-            <a href="#">CONTACTO</a>
+            <a href="contacto.html">CONTACTO</a>
         </nav>
 
     </div>
 
-    <div class="preview">
-        <img id="mainImage" src="https://content.elmueble.com/medio/2025/03/18/teckel_d876849b_250318171431_900x900.webp" alt="" width="300" class="thumb">
+<!-- Banner Principal Promocional -->
+<section class="hero">
+  <h2>¡Los mejores Mangas al mejor precio!</h2>
+  <p>Encuentra tus tomos favoritos con envío a todo el país.</p>
+</section>
+
+<!-- Sección de Productos -->
+<main class="contenedor-tienda">
+  <h2>Productos Destacados</h2>
+
+  <div class="grid-productos">
+    <!-- Producto 1 -->
+    <div class="tarjeta-producto">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZnM4RxEdpLMWK5cBrxY_GLBjb8hPrIzLjcWViuSRknnqw25JzHuc99cc&s=10" alt="Producto 1">
+      <h3>Manga Tomo 1</h3>
+      <p class="categoria-tag">Shonen</p>
+      <p class="precio">$12.990</p>
+      <button class="btn-comprar">Agregar al Carrito</button>
     </div>
+
+    <!-- Producto 2 -->
+    <div class="tarjeta-producto">
+      <img src="https://www.crazyallcomics.cl/media/catalog/product/cache/23/thumbnail/300x375/9df78eab33525d08d6e5fb8d27136e95/t/o/tokyo_ghoul_01_arg.jpg" alt="Producto 2">
+      <h3>Manga Tomo 2</h3>
+      <p class="categoria-tag">Seinen</p>
+      <p class="precio">$14.990</p>
+      <button class="btn-comprar">Agregar al Carrito</button>
+    </div>
+
+    <!-- Producto 3 -->
+    <div class="tarjeta-producto">
+      <img src="https://cdn.kobo.com/book-images/926a678f-c3ea-461d-9968-0972c55ed27f/1200/1200/False/nana-vol-1.jpg" alt="Producto 3">
+      <h3>Manga Tomo 3</h3>
+      <p class="categoria-tag">Shoujo</p>
+      <p class="precio">$11.990</p>
+      <button class="btn-comprar">Agregar al Carrito</button>
+    </div>
+
+    <!-- Producto 4 -->
+    <div class="tarjeta-producto">
+      <img src="https://images.cdn2.buscalibre.com/fit-in/360x360/81/9d/819d7e1d65c47f6a91cc3bfda8c0415c.jpg" alt="Producto 4">
+      <h3>Manga Tomo 4</h3>
+      <p class="categoria-tag">Slice of Life</p>
+      <p class="precio">$10.990</p>
+      <button class="btn-comprar">Agregar al Carrito</button>
+    </div>
+  </div>
+</main>
 
     <script src="script.js"></script>
 </body>
